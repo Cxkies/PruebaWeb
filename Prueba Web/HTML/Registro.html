@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="shortcut icon" href="/IMAGES/icono.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/CSS/Estilos.css">
+</head>
+
+<body>
+
+    <div class="Cabecera">
+    <h1>Registro</h1>
+    </div>
+
+    <div class="Registro">
+    <!Datos Personales>
+    <h3>Datos Personales:</h3>
+
+    <form >
+    
+    <!Nombres y Apellidos>
+    <Input class="Formulario" placeholder="Nombres" id="Nombres">
+    <Input class="Formulario" placeholder="Apellidos" id="Apellidos">
+    <p>
+    
+    <!Numeros>
+    <Input class="Formulario" type="number" placeholder="Telefono" id="Telefono"> 
+    <Input class="Formulario" type="number" placeholder="Celular" id="Celular"> 
+    <p>
+    
+    <!Correo y Nacimiento>
+    <Input class="Formulario" type="email" placeholder="Correo electronico" id="Email">
+    <Input class="Formulario" type="date" placeholder="Fecha de Nacimiento" id="Nacimiento">
+    <p>
+    
+    <!Sexo>
+    <select class="Formulario">
+    <option>Sexo</option>
+    <option>Hombre</option>
+    <option>Mujer</option>
+    </select>
+
+    <!Botones>
+    <button class="Boton1" type="button" onclick="confirmacion()"><strong>Registrarse</strong></button>
+    <button class="Boton2" type="reset"><strong>Restablecer</strong></button>
+    </div>
+    
+    </form>
+
+    <script src="/JavaScript/app.js"></script>
+</body>
+
+</html>

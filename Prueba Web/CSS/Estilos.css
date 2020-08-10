@@ -1,0 +1,80 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/IMAGES/Fondo.jpg');
+}
+
+.Registro{
+    background-color: #385069;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 11px;
+    color: white;
+    box-shadow: 7px 13px 22px #000000;
+}
+
+.Cabecera h1{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Registro h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Formulario{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 11px;
+    border: 1px solid #0f2b66;
+}
+
+.Boton1{
+    width: 340px;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 11px;
+    border: 1px solid #0f2b66;
+}
+
+.Boton2{
+    width: 340px;
+    padding: 15px;
+    border-radius: 11px;
+    border: 1px solid #0f2b66;
+}
+
+.Mensaje{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Lorem{
+    margin: 50px;
+    text-align: justify;
+}
+
+.Botones{
+    text-align: center;
+
+}
+
+.Exitoso{
+    background-color: #385069;
+    width: 1500px;
+    padding: 6px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 7px 13px 50px #000000;
+}
